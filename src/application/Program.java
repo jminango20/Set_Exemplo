@@ -1,12 +1,12 @@
 package application;
 
+import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class Program {
 	public static void main(String[] args) {
 		
-		Set<String> set = new TreeSet<String>();
+		Set<String> set = new LinkedHashSet<String>();
 		
 		set.add("Tv");
 		set.add("Tablet");
