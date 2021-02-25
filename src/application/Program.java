@@ -9,8 +9,8 @@ public class Program {
 		Set<String> set = new HashSet<>();
 		
 		set.add("TV");
-		set.add("Notebook");
 		set.add("Tablet");
+		set.add("Notebook");
 		
 		System.out.println(set.contains("Notebook"));
 		
