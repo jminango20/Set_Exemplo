@@ -12,6 +12,8 @@ public class Program {
 		set.add("Tablet");
 		set.add("Notebook");
 		
+		set.removeIf(x -> x.length()>=3);
+		
 		System.out.println(set.contains("Notebook"));
 		
 		for (String p : set) {
